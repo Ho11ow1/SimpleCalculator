@@ -2,12 +2,12 @@ using System;
 
 class C_Calc
 {
-    public void Calc()
+    public void Fn_Calc()
     {
-        Operations();
+        Fn_Operations();
     }
 
-    private void Operations()
+    private void Fn_Operations()
     {
         UInt16 option;
         do
@@ -20,29 +20,30 @@ class C_Calc
             Console.WriteLine("4. Divide");
             Console.WriteLine("5. Exit");
 
-            string ooption = Console.ReadLine();
-            option = Convert.ToUInt16(ooption);
+            Console.Write("Choose an option: ");
+            UInt16 choice = Convert.ToUInt16(Console.ReadLine());
+            option = choice;
 
             switch (option)
             {
                 case 1:
-                    Helper(add.Add);
+                    Fn_Helper(add.Fn_Add);
                     break;
 
                 case 2:
-                    Helper(sub.Subtract);
+                    Fn_Helper(sub.Fn_Subtract);
                     break;
 
                 case 3:
-                    Helper(multi.Multiply);
+                    Fn_Helper(multi.Fn_Multiply);
                     break;
 
                 case 4:
-                    Helper(div.Divide);
+                    Fn_Helper(div.Fn_Divide);
                     break;
 
                 case 5:
-                    Console.WriteLine("Thank you for using out Calculator.");
+                    Console.WriteLine("Thank you for using our Calculator.");
                 break;
             }
         }
@@ -102,12 +103,12 @@ class C_Calc
     //    double res = div.Divide(res1, res2);
     //    Console.WriteLine("Result: {0:F2}", res);
     //}
-    private static void Helper(Func<double, double, double> operation)
+    private static void Fn_Helper(Func<double, double, double> operation)
     {
-        Console.WriteLine("Enter first number:");
+        Console.Write("Enter first number:");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("Enter second number:");
+        Console.Write("Enter second number:");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
         Console.Clear();

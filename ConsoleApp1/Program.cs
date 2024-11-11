@@ -6,6 +6,6 @@ internal class C_Main
     {
         C_Calc run = new C_Calc();
 
-        run.Calc();
+        run.Fn_Calc();
     }
 }

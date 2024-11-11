@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 340,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,28 +42,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "calc.cs",
-              "DocumentMoniker": "C:\\$Dev\\C#\\ConsoleApp1\\ConsoleApp1\\src\\calc.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\src\\calc.cs",
-              "ToolTip": "C:\\$Dev\\C#\\ConsoleApp1\\ConsoleApp1\\src\\calc.cs",
-              "RelativeToolTip": "ConsoleApp1\\src\\calc.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T23:56:13.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\$Dev\\C#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\$Dev\\C#\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T23:55:39.272Z",
+              "WhenOpened": "2024-11-11T12:57:15.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "calc.cs",
+              "DocumentMoniker": "C:\\$Dev\\C#\\ConsoleApp1\\ConsoleApp1\\src\\calc.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\src\\calc.cs",
+              "ToolTip": "C:\\$Dev\\C#\\ConsoleApp1\\ConsoleApp1\\src\\calc.cs",
+              "RelativeToolTip": "ConsoleApp1\\src\\calc.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T23:56:13.663Z",
               "EditorCaption": ""
             }
           ]
